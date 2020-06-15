@@ -1,0 +1,327 @@
+.background{
+  position: absolute;
+  z-index: -10;
+}
+
+/* main fornt page */
+.main-section{
+  padding: 3% 15% 10%;
+  margin :0;
+  background-color: #222831;
+}
+
+
+
+/* navigation bar */
+
+.navbar-brand{
+  font-family: 'Rock Salt', cursive;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 20px 0 20px;
+  font-size: 1rem;
+}
+.nav-link {
+  transition: 0.3s ease;
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 2% 0;
+  margin: 0 2%;
+}
+.nav-link:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 3% 0;
+}
+.navbar{
+  padding:0 0 4.5rem 0;
+  border: 1px;
+  border-style:  none none solid none;
+  border-color: #fff;
+}
+
+
+/* main heading and intro */
+
+.intro{
+  display: inline-block;
+  width: 45%;
+  margin: 10% auto auto 10%;
+}
+.intro> h1 , h3{
+  font-size: 5rem;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 10px;
+}
+
+.myphoto{
+  display: inline-block;
+  position: absolute;
+  margin: 6% 10% auto auto;
+}
+.profilePic{
+  width: 65%;
+  border-radius: 100%;
+}
+
+
+/* hello section */
+
+.detail-container{
+  align-self: center;
+  background-color: #393e46;
+  color: #eeeeee;
+  text-align: center;
+  padding-top: 4%  ;
+  padding-bottom: 4%;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: 90%;
+  opacity: 70%;
+}
+.detail-container>h3{
+  font-size: 2.5rem;
+}
+p{
+  font-size: 1.5rem;
+}
+
+/* skills */
+
+#skills{
+  padding: 18% 20% 10%;
+  text-align: center;
+}
+.skills-heading{
+  color: #b6eb7a;
+  margin: 2% auto 6% auto;
+  letter-spacing: 5px;
+}
+.skill-1{
+  color: #fff;
+  margin-bottom:15%;
+  text-align:left;
+}
+.gif1{
+  margin-right: 4%;
+  width: 25%;
+  display: inline-block;
+  float: left;
+}
+.skill-2{
+  color: #fff;
+  margin-left: 4%;
+  margin-bottom: 15%;
+  text-align: left;
+}
+.gif2{
+  width: 25%;
+  display: inline-block;
+  float: right;
+}
+h4{
+  color:#b6eb7a;
+  padding-top: 2%;
+
+}
+table{
+  width: 100%;
+}
+.name-of-skill{
+  color: #fff;
+  width: 20%;
+  text-align:left;
+}
+.progress-heading{
+  color:#b6eb7a;
+  margin-bottom: 4%;
+  letter-spacing: 5px;
+}
+
+
+
+/* portfolio */
+#portfolio{
+  text-align: center;
+  background-color:  #30475e;
+  color: #fff;
+  opacity: 99%;
+}
+.carousel-item{
+  padding: 2% 15% 4%;
+}
+.portfolio-heading{
+  color:#b6eb7a;
+  font-size: 2.5rem;
+  padding-top: 2%;
+  letter-spacing:10px;
+}
+
+
+
+/* contact */
+.column{
+  margin: auto;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container-contact{
+  padding-top: 10px;
+  margin: 5% auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 70%;
+  opacity: 90%;
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color:#222831;
+}
+.footer-logo{
+  margin: 1% 1.2% 1.3%;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.footer-logo:hover{
+    color:#32e0c4;
+}
+footer>p{
+  font-size: 1.2rem;
+  color: #eeeeee;
+  font-family: sans-serif;
+
+}
+
+/* parallax */
+.parallax {
+    background: transparent;
+}
+
+
+/* media query */
+@media only screen and (max-width:1260px){
+  /* footer */
+  footer>p{
+    font-size: 0.9rem;
+    color: #eeeeee;
+    font-family: sans-serif;
+  }
+
+  /* contact for mobile and tablet vie media query */
+  .container-contact{
+    padding-top: 10px;
+    margin: 5% auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 80%;
+    opacity: 90%;
+  }
+
+  /* portfolio for mobile and tablet view media query */
+  .portfolio-text{
+    font-size: 1.5rem;
+  }
+  .carousel-item{
+    padding: 10% 15% 10%;
+  }
+
+  /* table for my skill progress bar */
+  #skills{
+    padding: 5% 10% 10%;
+    text-align: center;
+  }
+  .progress-heading{
+    font-size: 1.3rem;
+    color:#32e0c4;
+    margin-bottom: 4%;
+    letter-spacing: 5px;
+  }
+
+  /* hello section */
+  .pc-hello{
+    display:none;
+  }
+  .mobile-hello{
+    align-self: center;
+    background-color: #393e46;
+    color: #eeeeee;
+    text-align: center;
+    padding: 4% 3% 4% ;
+    opacity: 85%;
+    display: inline-block;
+  }
+  /* profile photo in hello section for mobile view */
+  .myphoto-mobile{
+    display: inline-block;
+  }
+  .profilePic-mobile{
+    width: 30%;
+    border-radius: 100%;
+  }
+  .myphoto{
+    display: none;
+  }
+
+  /* intro for mobile view */
+  .intro{
+    display: inline-block;
+    width: 45%;
+    margin: 10% auto auto auto;
+  }
+  .intro> h1 , h3{
+    font-size: 4rem;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
+  }
+
+}
+@media only screen and (min-width:1260px) {
+  .pc-hello{
+    display:block;
+  }
+  .mobile-hello{
+    display: none;
+  }
+  .myphoto-mobile{
+    display:none;
+  }
+}
