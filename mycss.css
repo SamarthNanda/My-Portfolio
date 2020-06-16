@@ -313,7 +313,7 @@ footer>p{
     letter-spacing: 10px;
   }
 
-  .parallax-mobile-skills{
+  /* .parallax-mobile-skills{
     position: relative;
     z-index: -1;
     display: block;
@@ -332,10 +332,10 @@ footer>p{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 100%;
+    height: 100%; */
   }
   .parallax {
-      background: #ebebeb;
+      background: #84a9ac;
   }
 
 }
