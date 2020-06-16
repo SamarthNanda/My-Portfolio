@@ -270,7 +270,7 @@ footer>p{
   }
   .progress-heading{
     font-size: 1.3rem;
-    color:#32e0c4;
+    color:#b6eb7a;
     margin-bottom: 4%;
     letter-spacing: 5px;
   }
@@ -313,26 +313,30 @@ footer>p{
     letter-spacing: 10px;
   }
 
-  .parallax-mobile-skills{
+  /* .parallax-mobile-skills{
+    position: relative;
+    z-index: -1;
     display: block;
-    background-image: url('CSS - My Site Images\skills-bg.jpg');
-    background-repeat: no-repeat;
+    background-image: url('..\CSS - My Site Images\skills-bg.jpg') repeat 0 0;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     height: 100%;
   }
   .parallax-mobile-contact{
+    position: relative;
+    z-index: -10;
     display: block;
-    background-image: url('CSS - My Site Images\contact-bg.jpg');
+    background-image: url("..\CSS - My Site Images\contact-bg.jpg") repeat 0 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     height: 100%;
-  }
+  } */
   .parallax {
-      background: #ebebeb;
+    background-attachment: scroll;
+      background: none;
   }
 
 }
