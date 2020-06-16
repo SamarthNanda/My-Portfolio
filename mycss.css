@@ -102,7 +102,7 @@ p{
   letter-spacing: 5px;
 }
 .skill-1{
-  color: #fff;
+  color: #f6f6f6;
   margin-bottom:15%;
   text-align:left;
 }
@@ -113,7 +113,7 @@ p{
   float: left;
 }
 .skill-2{
-  color: #fff;
+  color: #f6f6f6;
   margin-left: 4%;
   margin-bottom: 15%;
   text-align: left;
@@ -132,7 +132,7 @@ table{
   width: 100%;
 }
 .name-of-skill{
-  color: #fff;
+  color: #f6f6f6;
   width: 20%;
   text-align:left;
 }
@@ -312,10 +312,8 @@ footer>p{
     font-family: 'Oswald', sans-serif;
     letter-spacing: 10px;
   }
-
-  
   .parallax {
-      background: #63b7af;
+      background: #3b6978;
   }
 
 }
