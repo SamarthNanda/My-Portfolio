@@ -314,6 +314,7 @@ footer>p{
   }
 
   .parallax-mobile-skills{
+    display: block;
     background-image: url('CSS - My Site Images\skills-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -322,12 +323,17 @@ footer>p{
     height: 100%;
   }
   .parallax-mobile-contact{
+    display: block;
     background-image: url('CSS - My Site Images\contact-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     height: 100%;
+  }
+  .parallax {
+    display: none;
+      background: transparent;
   }
 
 }
