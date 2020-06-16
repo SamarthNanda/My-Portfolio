@@ -332,8 +332,7 @@ footer>p{
     height: 100%;
   }
   .parallax {
-    display: none;
-      background: transparent;
+      background: #ebebeb;
   }
 
 }
