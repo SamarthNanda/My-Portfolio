@@ -313,6 +313,23 @@ footer>p{
     letter-spacing: 10px;
   }
 
+  .parallax-mobile-skills{
+    background-image: url('CSS - My Site Images\skills-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+  }
+  .parallax-mobile-contact{
+    background-image: url('CSS - My Site Images\contact-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+  }
+
 }
 @media only screen and (min-width:1260px) {
   .pc-hello{
