@@ -313,7 +313,7 @@ footer>p{
     letter-spacing: 10px;
   }
 
-  .parallax-mobile-skills{
+/*   .parallax-mobile-skills{
     background-image: url('..\CSS - My Site Images\skills-bg.jpg') repeat 0 0;
     background-size: cover;
     background-attachment: scroll;
@@ -327,10 +327,9 @@ footer>p{
     background-attachment: scroll;
     background-position: center;
     height: 100%;
-  }
+  } */
   .parallax {
-    background-attachment: scroll;
-      background: none;
+      background: #a6dcef;
   }
 
 }
