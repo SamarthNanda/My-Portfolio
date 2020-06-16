@@ -313,29 +313,9 @@ footer>p{
     letter-spacing: 10px;
   }
 
-  /* .parallax-mobile-skills{
-    position: relative;
-    z-index: -1;
-    display: block;
-    background-image: url('..\CSS - My Site Images\skills-bg.jpg') repeat 0 0;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100%;
-  }
-  .parallax-mobile-contact{
-    position: relative;
-    z-index: -10;
-    display: block;
-    background-image: url("..\CSS - My Site Images\contact-bg.jpg") repeat 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    height: 100%; */
-  }
+  
   .parallax {
-      background: #3b6978;
+      background: #63b7af;
   }
 
 }
